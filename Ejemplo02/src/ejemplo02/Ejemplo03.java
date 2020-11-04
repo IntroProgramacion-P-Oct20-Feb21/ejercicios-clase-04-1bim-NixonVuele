@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 package ejemplo02;
-
 import java.util.Scanner;
-
 /**
  *
  * @author reroes
@@ -19,11 +17,9 @@ public class Ejemplo03 {
         String nombre;
         String apellido;
         String nacimiento;
-        
         System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
                                     // por teclado
-        
         System.out.println("Ingrese el apellido del estudiante");
         apellido = entrada.nextLine();
         
@@ -34,6 +30,5 @@ public class Ejemplo03 {
                 nombre,
                 apellido,
                 nacimiento);
-        
     }
 }
